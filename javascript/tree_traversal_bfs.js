@@ -8,6 +8,16 @@ class Node {
 
 function levelOrderTraversal(root) {
   // type your code here
+  const returnArr = [];
+  let firstNode = root;
+  const firstArr = [firstNode.value];
+  returnArr.push(firstArr);
+  while(firstNode.left || firstNode.right) {
+    const newArr = [];
+    newArr.push(firstNode.left.value);
+    newArr.push(firstNode.right.value);
+    
+  }
 }
 
 if (require.main === module) {
